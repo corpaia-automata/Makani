@@ -1,0 +1,201 @@
+[00:00:01.841] Server  WARN     ⚠ Minimum recommended TypeScript version is v5.1.0, older versions can potentially be incompatible with Next.js. Detected: 5.0.2
+[00:00:02.194] Server  LOG      ✓ Ready in 1491ms
+[00:00:19.296] Browser WARN    Image with src "http://localhost:3000/makani.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:19.296] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:19.296] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:19.296] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766210432475}
+[00:00:56.609] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:56.609] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766210469783}
+[00:02:24.413] Server  LOG      ✓ Compiled in 82ms
+[00:02:27.974] Server  LOG      ✓ Compiled in 139ms
+[00:02:50.640] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766210583801}
+[00:07:24.595] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766210857770}
+[00:07:42.220] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/menu color: rgb(120, 120, 120) color: inherit {"dp":"/menu","o":"http://localhost:3000/menu","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766210875393}
+[00:07:50.098] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766210883272}
+[00:08:17.159] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766210910332}
+[00:28:44.616] Server  LOG      ✓ Compiled in 107ms
+[00:28:52.318] Server  LOG      ✓ Compiled in 98ms
+[00:28:59.380] Server  LOG      ✓ Compiled in 168ms
+[00:29:02.359] Server  LOG      ✓ Compiled in 92ms
+[00:29:20.155] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766212173329}
+[00:29:23.644] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/menu color: rgb(120, 120, 120) color: inherit {"dp":"/menu","o":"http://localhost:3000/menu","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766212176807}
+[00:29:26.418] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/gallery color: rgb(120, 120, 120) color: inherit {"dp":"/gallery","o":"http://localhost:3000/gallery","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766212179590}
+[00:29:34.187] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766212187365}
+[00:30:30.832] Server  LOG      ✓ Compiled in 123ms
+[00:30:31.780] Browser ERROR   The final argument passed to %s changed size between renders. The order and size of this array must remain constant.
+
+Previous: %s
+Incoming: %s useEffect [false] []
+[00:30:32.360] Server  LOG      ✓ Compiled in 79ms
+[00:30:35.959] Server  LOG      ✓ Compiled in 159ms
+[00:30:41.390] Server  LOG      ✓ Compiled in 68ms
+[01:26:48.342] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766215621507}
+[01:26:50.444] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/menu color: rgb(120, 120, 120) color: inherit {"dp":"/menu","o":"http://localhost:3000/menu","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766215623616}
+[01:26:52.703] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/gallery color: rgb(120, 120, 120) color: inherit {"dp":"/gallery","o":"http://localhost:3000/gallery","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766215625871}
+[01:29:16.044] Server  LOG      ✓ Compiled in 201ms
+[01:29:44.930] Server  LOG      ✓ Compiled in 231ms
+[01:31:49.189] Server  ERROR   C:\Users\MUFEES RAHMAN\Desktop\New folder\makani\v0-makkani-restaurant-website\.next\dev\server\chunks\ssr\[root-of-the-server]__46f24a64._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:31:49.190] Server  ERROR    ⨯ ReferenceError: pages is not defined
+[01:31:49.232] Server  ERROR   C:\Users\MUFEES RAHMAN\Desktop\New folder\makani\v0-makkani-restaurant-website\.next\dev\server\chunks\ssr\[root-of-the-server]__46f24a64._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:31:49.233] Server  ERROR    ⨯ ReferenceError: pages is not defined
+[01:31:49.271] Server  ERROR   C:\Users\MUFEES RAHMAN\Desktop\New folder\makani\v0-makkani-restaurant-website\.next\dev\server\chunks\ssr\[root-of-the-server]__46f24a64._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:31:49.272] Server  ERROR    ⨯ ReferenceError: pages is not defined
+[01:31:49.316] Server  ERROR   C:\Users\MUFEES RAHMAN\Desktop\New folder\makani\v0-makkani-restaurant-website\.next\dev\server\chunks\ssr\[root-of-the-server]__46f24a64._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:31:49.316] Server  ERROR    ⨯ ReferenceError: pages is not defined
+[01:31:49.356] Server  ERROR   C:\Users\MUFEES RAHMAN\Desktop\New folder\makani\v0-makkani-restaurant-website\.next\dev\server\chunks\ssr\[root-of-the-server]__46f24a64._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:31:49.357] Server  ERROR    ⨯ ReferenceError: pages is not defined
+[01:31:49.592] Browser ERROR   uncaughtError: ReferenceError: pages is not defined
+[01:31:50.511] Server  ERROR   C:\Users\MUFEES RAHMAN\Desktop\New folder\makani\v0-makkani-restaurant-website\.next\dev\server\chunks\ssr\[root-of-the-server]__46f24a64._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:31:50.511] Server  ERROR    ⨯ ReferenceError: pages is not defined
+[01:31:51.600] Browser ERROR   uncaughtError: ReferenceError: pages is not defined
+[01:32:00.250] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:32:00.850] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/%5Broot-of-the-server%5D__16e5f066._.css
+[01:32:01.791] Browser WARN    Image with src "http://localhost:3000/makani.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:32:01.791] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:32:01.791] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/gallery","route":"/gallery"}
+[01:32:01.791] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/gallery color: rgb(120, 120, 120) color: inherit {"dp":"/gallery","o":"http://localhost:3000/gallery","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766215934840}
+[01:38:42.002] Browser WARN    Image with src "http://localhost:3000/makani.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:38:42.002] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:38:42.002] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/gallery","route":"/gallery"}
+[01:38:42.002] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/gallery color: rgb(120, 120, 120) color: inherit {"dp":"/gallery","o":"http://localhost:3000/gallery","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766216335177}
+[01:43:55.952] Server  LOG      ✓ Compiled in 98ms
+[01:44:01.689] Server  LOG      ✓ Compiled in 116ms
+[01:44:25.628] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:44:25.628] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766216678790}
+[01:48:06.196] Server  LOG      ✓ Compiled in 101ms
+[01:48:09.356] Server  LOG      ✓ Compiled in 135ms
+[01:48:50.641] Server  LOG      ✓ Compiled in 62ms
+[01:48:53.125] Server  LOG      ✓ Compiled in 81ms
+[01:51:37.388] Server  LOG      ✓ Compiled in 124ms
+[01:52:29.951] Server  LOG      ✓ Compiled in 73ms
+[01:52:40.712] Server  LOG      ✓ Compiled in 70ms
+[01:54:34.094] Server  LOG      ✓ Compiled in 96ms
+[01:54:42.263] Server  LOG      ✓ Compiled in 95ms
+[02:04:14.672] Server  LOG      ✓ Compiled in 79ms
+[02:04:18.359] Server  LOG      ✓ Compiled in 81ms
+[02:05:41.050] Server  LOG      ✓ Compiled in 93ms
+[02:05:45.586] Server  LOG      ✓ Compiled in 69ms
+[02:11:40.908] Server  LOG      ✓ Compiled in 67ms
+[02:11:47.059] Server  LOG      ✓ Compiled in 58ms
+[02:11:50.796] Server  LOG      ✓ Compiled in 56ms
+[02:12:10.447] Server  LOG      ✓ Compiled in 68ms
+[02:12:13.217] Server  LOG      ✓ Compiled in 80ms
+[02:13:53.359] Server  LOG      ✓ Compiled in 59ms
+[02:13:58.523] Server  LOG      ✓ Compiled in 59ms
+[02:14:24.988] Browser WARN    Image with src "http://localhost:3000/makani.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:14:24.989] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:14:24.989] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[02:14:24.989] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766218478166}
+[02:14:56.648] Server  LOG      ✓ Compiled in 65ms
+[02:15:16.663] Server  LOG      ✓ Compiled in 60ms
+[02:15:43.289] Server  LOG      ✓ Compiled in 73ms
+[02:15:46.537] Server  LOG      ✓ Compiled in 56ms
+[02:15:49.589] Server  LOG      ✓ Compiled in 60ms
+[02:20:04.405] Server  LOG      ✓ Compiled in 81ms
+[02:20:14.346] Server  LOG      ✓ Compiled in 99ms
+[02:20:24.520] Server  LOG      ✓ Compiled in 80ms
+[02:24:21.755] Server  LOG      ✓ Compiled in 55ms
+[02:24:29.852] Server  LOG      ✓ Compiled in 62ms
+[02:24:34.701] Server  LOG      ✓ Compiled in 70ms
+[02:42:34.479] Server  LOG      ✓ Compiled in 70ms
+[02:42:36.459] Server  LOG      ✓ Compiled in 59ms
+[02:42:38.501] Server  LOG      ✓ Compiled in 74ms
+[02:43:37.913] Browser WARN    Image with src "http://localhost:3000/makani.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:43:37.913] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:43:37.913] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[02:43:37.913] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766220231089}
+[02:49:48.505] Server  LOG      ✓ Compiled in 153ms
+[02:49:55.847] Server  LOG      ✓ Compiled in 218ms
+[02:49:59.174] Server  LOG      ✓ Compiled in 136ms
+[02:50:04.617] Server  LOG      ✓ Compiled in 150ms
+[02:50:31.512] Server  LOG      ✓ Compiled in 138ms
+[02:51:01.431] Server  LOG      ✓ Compiled in 146ms
+[02:52:00.026] Server  LOG      ✓ Compiled in 74ms
+[02:52:04.781] Server  LOG      ✓ Compiled in 63ms
+[02:56:11.749] Server  LOG      ✓ Compiled in 67ms
+[02:56:19.083] Server  LOG      ✓ Compiled in 56ms
+[02:56:20.941] Server  LOG      ✓ Compiled in 120ms
+[02:56:30.357] Server  LOG      ✓ Compiled in 58ms
+[02:56:36.542] Server  LOG      ✓ Compiled in 73ms
+[02:56:37.794] Server  LOG      ✓ Compiled in 62ms
+[02:58:21.704] Server  LOG      ✓ Compiled in 68ms
+[03:01:38.900] Server  LOG      ✓ Compiled in 92ms
+[03:01:56.809] Server  LOG      ✓ Compiled in 81ms
+[03:03:31.765] Browser WARN    Image with src "http://localhost:3000/makani.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:03:31.882] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:03:31.882] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:03:31.882] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766221425048}
+[03:03:39.039] Server  LOG      ✓ Compiled in 140ms
+[03:03:47.102] Server  LOG      ✓ Compiled in 69ms
+[03:03:48.991] Server  LOG      ✓ Compiled in 354ms
+[03:03:50.603] Server  LOG      ✓ Compiled in 78ms
+[03:03:55.191] Server  LOG      ✓ Compiled in 79ms
+[03:03:56.772] Server  LOG      ✓ Compiled in 77ms
+[03:04:01.041] Server  LOG      ✓ Compiled in 66ms
+[03:04:02.733] Server  LOG      ✓ Compiled in 66ms
+[03:04:07.267] Browser WARN    Image with src "http://localhost:3000/makani.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:04:07.267] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:04:07.267] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:04:07.267] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766221460440}
+[03:05:02.851] Server  LOG      ✓ Compiled in 63ms
+[03:05:09.040] Browser WARN    Image with src "http://localhost:3000/makani.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:05:09.040] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:05:09.040] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:05:09.040] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766221522216}
+[03:05:15.780] Server  LOG      ✓ Compiled in 67ms
+[03:05:17.471] Server  LOG      ✓ Compiled in 60ms
+[03:05:24.185] Server  LOG      ✓ Compiled in 86ms
+[03:05:29.407] Browser WARN    Image with src "http://localhost:3000/makani.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:05:29.407] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:05:29.407] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:05:29.407] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766221542584}
+[03:05:55.682] Server  LOG      ✓ Compiled in 62ms
+[03:05:59.838] Server  LOG      ✓ Compiled in 64ms
+[03:07:58.180] Server  LOG      ✓ Compiled in 57ms
+[03:14:01.457] Server  LOG      ✓ Compiled in 65ms
+[03:14:03.788] Server  LOG      ✓ Compiled in 58ms
+[03:14:05.328] Server  LOG      ✓ Compiled in 55ms
+[03:15:48.928] Server  LOG      ✓ Compiled in 56ms
+[03:15:53.375] Server  LOG      ✓ Compiled in 58ms
+[03:15:54.584] Server  LOG      ✓ Compiled in 63ms
+[03:16:09.299] Server  LOG      ✓ Compiled in 128ms
+[03:16:23.565] Server  LOG      ✓ Compiled in 54ms
+[03:16:25.328] Server  LOG      ✓ Compiled in 67ms
+[03:18:45.923] Server  LOG      ✓ Compiled in 58ms
+[03:18:47.321] Server  LOG      ✓ Compiled in 64ms
+[03:19:40.653] Browser WARN    Image with src "http://localhost:3000/makani.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:19:40.653] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:19:40.653] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:19:40.653] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766222393823}
+[03:20:11.911] Server  LOG      ✓ Compiled in 67ms
+[03:21:55.417] Server  LOG      ✓ Compiled in 136ms
+[03:22:37.983] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[03:22:37.983] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766222571158}
+[03:23:16.718] Server  LOG      ✓ Compiled in 62ms
+[03:23:21.423] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766222614581}
+[03:23:58.506] Server  LOG      ✓ Compiled in 62ms
+[03:24:08.471] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766222661649}
+[03:26:52.434] Server  LOG      ✓ Compiled in 96ms
+[03:26:54.600] Server  LOG      ✓ Compiled in 101ms
+[03:27:17.916] Server  LOG      ✓ Compiled in 227ms
+[03:27:54.656] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766222887828}
+[03:29:09.979] Server  LOG      ✓ Compiled in 59ms
+[03:29:37.096] Server  LOG      ✓ Compiled in 60ms
+[03:29:49.635] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766223002805}
+[03:31:11.070] Server  LOG      ✓ Compiled in 65ms
+[03:31:14.598] Server  LOG      ✓ Compiled in 59ms
+[03:31:16.364] Server  LOG      ✓ Compiled in 79ms
+[03:31:27.924] Server  LOG      ✓ Compiled in 70ms
+[03:31:51.624] Server  LOG      ✓ Compiled in 56ms
+[03:31:53.421] Server  LOG      ✓ Compiled in 129ms
+[03:33:52.729] Server  LOG      ✓ Compiled in 66ms
+[03:34:04.221] Server  LOG      ✓ Compiled in 55ms
+[03:34:08.622] Server  LOG      ✓ Compiled in 66ms
+[03:34:40.040] Server  LOG      ✓ Compiled in 71ms
+[03:34:43.055] Server  LOG      ✓ Compiled in 59ms
+[03:34:51.656] Server  LOG      ✓ Compiled in 96ms
+[03:35:28.235] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1766223341408}
+[03:38:24.684] Server  LOG      ✓ Compiled in 54ms
+[03:38:35.904] Server  LOG      ✓ Compiled in 75ms
+[03:38:37.092] Server  LOG      ✓ Compiled in 60ms
+[03:38:38.658] Server  LOG      ✓ Compiled in 62ms
