@@ -19,7 +19,7 @@ export default function AboutSection() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="relative h-[400px] overflow-hidden lg:h-[600px]"
           >
-            <img src="/luxury-restaurant-interior-warm-lighting-arabian-d.jpg" alt="Restaurant Interior" className="h-full w-full object-cover" />
+            <img src="/Gallery/makkanifront.png" alt="Restaurant Interior" className="h-full w-full rounded-xl object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent" />
           </motion.div>
 

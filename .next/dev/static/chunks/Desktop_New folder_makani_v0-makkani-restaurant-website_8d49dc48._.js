@@ -98,6 +98,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$ma
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/ui/button.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/node_modules/.pnpm/next@16.0.10_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/next/image.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/node_modules/.pnpm/next@16.0.10_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/node_modules/.pnpm/next@16.0.10_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/next/navigation.js [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
@@ -107,8 +108,10 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
+;
 function Navbar() {
     _s();
+    const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"])();
     const [isScrolled, setIsScrolled] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     // Scroll logic for all pages
@@ -162,7 +165,7 @@ function Navbar() {
                     duration: 0.6,
                     ease: "easeOut"
                 },
-                className: `fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-out ${isScrolled ? "bg-black/95 backdrop-blur-md shadow-lg" : "bg-transparent"}`,
+                className: `fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-out ${isScrolled ? "bg-primary backdrop-blur-md shadow-lg" : "bg-transparent"}`,
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "container mx-auto px-6 lg:px-12",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -180,12 +183,12 @@ function Navbar() {
                                     className: "object-contain"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/navbar.tsx",
-                                    lineNumber: 55,
+                                    lineNumber: 57,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/navbar.tsx",
-                                lineNumber: 51,
+                                lineNumber: 53,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -200,34 +203,28 @@ function Navbar() {
                                                     className: "absolute -bottom-1 left-0 w-0 h-0.5 bg-gold transition-all duration-300 group-hover:w-full"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/navbar.tsx",
-                                                    lineNumber: 74,
+                                                    lineNumber: 76,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, link.name, true, {
                                             fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/navbar.tsx",
-                                            lineNumber: 68,
+                                            lineNumber: 70,
                                             columnNumber: 17
                                         }, this)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        href: "/contact",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                                            className: "bg-white hover:bg-gold/90 text-black font-medium px-6 py-2 transition-all duration-300",
-                                            children: "Enquiry Now"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/navbar.tsx",
-                                            lineNumber: 80,
-                                            columnNumber: 17
-                                        }, this)
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
+                                        onClick: ()=>router.push("/contact"),
+                                        className: "bg-white hover:bg-gold/90 text-black font-medium px-6 py-2 transition-all duration-300",
+                                        children: "Enquiry Now"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/navbar.tsx",
-                                        lineNumber: 79,
+                                        lineNumber: 81,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/navbar.tsx",
-                                lineNumber: 66,
+                                lineNumber: 68,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -238,34 +235,34 @@ function Navbar() {
                                     size: 24
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/navbar.tsx",
-                                    lineNumber: 94,
+                                    lineNumber: 95,
                                     columnNumber: 35
                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$454$2e$0_react$40$19$2e$2$2e$0$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
                                     size: 24
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/navbar.tsx",
-                                    lineNumber: 94,
+                                    lineNumber: 95,
                                     columnNumber: 53
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/navbar.tsx",
-                                lineNumber: 89,
+                                lineNumber: 90,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/navbar.tsx",
-                        lineNumber: 48,
+                        lineNumber: 50,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/navbar.tsx",
-                    lineNumber: 47,
+                    lineNumber: 49,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/navbar.tsx",
-                lineNumber: 38,
+                lineNumber: 40,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$framer$2d$motion$40$12$2e$23$2e$26_$40$emo_3a096f0cab07ef7d5c9aa69280700989$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
@@ -310,12 +307,12 @@ function Navbar() {
                                         children: link.name
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/navbar.tsx",
-                                        lineNumber: 120,
+                                        lineNumber: 121,
                                         columnNumber: 19
                                     }, this)
                                 }, link.name, false, {
                                     fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/navbar.tsx",
-                                    lineNumber: 112,
+                                    lineNumber: 113,
                                     columnNumber: 17
                                 }, this)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$framer$2d$motion$40$12$2e$23$2e$26_$40$emo_3a096f0cab07ef7d5c9aa69280700989$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -338,39 +335,43 @@ function Navbar() {
                                         children: "Book Now"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/navbar.tsx",
-                                        lineNumber: 132,
+                                        lineNumber: 133,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/navbar.tsx",
-                                    lineNumber: 131,
+                                    lineNumber: 132,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/navbar.tsx",
-                                lineNumber: 126,
+                                lineNumber: 127,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/navbar.tsx",
-                        lineNumber: 110,
+                        lineNumber: 111,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/navbar.tsx",
-                    lineNumber: 103,
+                    lineNumber: 104,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/navbar.tsx",
-                lineNumber: 101,
+                lineNumber: 102,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true);
 }
-_s(Navbar, "0+zEKVBL95ILuBb5rHE6ViYOHu8=");
+_s(Navbar, "e/7pQ2kaB/wqKRf2BLPPc+C57FI=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"]
+    ];
+});
 _c = Navbar;
 var _c;
 __turbopack_context__.k.register(_c, "Navbar");
@@ -401,19 +402,23 @@ const menuCategories = [
         items: [
             {
                 name: "Arabic Shawarma",
-                description: "Marinated meat wrapped in fresh pita with tahini and pickles"
+                description: "Marinated meat wrapped in fresh pita with tahini and pickles",
+                image: "/arabic.png"
             },
             {
-                name: "Chicken Nuggets",
-                description: "Tender chicken pieces coated in crispy golden batter"
+                name: "nuggets",
+                description: "Tender chicken pieces coated in crispy golden batter",
+                image: "/nuggets.png"
             },
             {
                 name: "Chicken Popcorn",
-                description: "Bite-sized crispy chicken with spicy seasoning"
+                description: "Bite-sized crispy chicken with spicy seasoning",
+                image: "/nuggets.png"
             },
             {
                 name: "French Fries",
-                description: "Perfectly crispy golden fries with house seasonings"
+                description: "Perfectly crispy golden fries with house seasonings",
+                image: "/fries.png"
             }
         ]
     },
@@ -422,19 +427,23 @@ const menuCategories = [
         items: [
             {
                 name: "Malabar Chicken Biryani",
-                description: "Fragrant basmati rice layered with tender chicken and authentic spices"
+                description: "Fragrant basmati rice layered with tender chicken and authentic spices",
+                image: "/Gallery/biriyani.png"
             },
             {
                 name: "Mutton Biryani",
-                description: "Slow-cooked mutton with aromatic rice and traditional Malabar flavors"
+                description: "Slow-cooked mutton with aromatic rice and traditional Malabar flavors",
+                image: "/mutton-biriyani.png"
             },
             {
                 name: "Arabian Chicken Mandi",
-                description: "Succulent chicken served over spiced rice with traditional mandi flavors"
+                description: "Succulent chicken served over spiced rice with traditional mandi flavors",
+                image: "/arabian-mandi-kabsa-rice-dish-premium.jpg"
             },
             {
                 name: "Mutton Mandi",
-                description: "Tender mutton with fragrant long-grain rice and Arabian spices"
+                description: "Tender mutton with fragrant long-grain rice and Arabian spices",
+                image: "/gallery/mutton-mandi.png"
             }
         ]
     },
@@ -443,19 +452,23 @@ const menuCategories = [
         items: [
             {
                 name: "Chicken Kabsa",
-                description: "Traditional Saudi rice dish with tender chicken and aromatic spices"
+                description: "Traditional Saudi rice dish with tender chicken and aromatic spices",
+                image: "/kabsa.png"
             },
             {
                 name: "Mutton Kabsa",
-                description: "Flavorful mutton served with fragrant rice and authentic kabsa blend"
+                description: "Flavorful mutton served with fragrant rice and authentic kabsa blend",
+                image: "/arabian-mandi-kabsa-rice-dish-premium.jpg"
             },
             {
                 name: "Lamb Ouzi",
-                description: "Slow-roasted lamb with spiced rice, nuts, and raisins"
+                description: "Slow-roasted lamb with spiced rice, nuts, and raisins",
+                image: "/lamp.png"
             },
             {
                 name: "Chicken Zurbian",
-                description: "Yemeni-style chicken with basmati rice and special zurbian spices"
+                description: "Yemeni-style chicken with basmati rice and special zurbian spices",
+                image: "/Gallery/biriyani.png"
             }
         ]
     },
@@ -464,19 +477,43 @@ const menuCategories = [
         items: [
             {
                 name: "Alfahm Chicken (Full/Half)",
-                description: "Charcoal-grilled chicken with signature smoky marinade"
+                description: "Charcoal-grilled chicken with signature smoky marinade",
+                image: "/grilled-chicken-alfahm-charcoal-smoky.jpg"
             },
             {
                 name: "Grilled Chicken",
-                description: "Perfectly grilled chicken with herbs and spices"
+                description: "Perfectly grilled chicken with herbs and spices",
+                image: "/grilled.png"
             },
             {
                 name: "Broasted Chicken",
-                description: "Pressure-fried chicken with crispy coating and juicy interior"
+                description: "Pressure-fried chicken with crispy coating and juicy interior",
+                image: "/Gallery/fried.png"
             },
             {
                 name: "Fried Chicken",
-                description: "Classic fried chicken with secret spice blend"
+                description: "Classic fried chicken with secret spice blend",
+                image: "/fries.png"
+            }
+        ]
+    },
+    {
+        category: "Platters",
+        items: [
+            {
+                name: "Mandi Platter",
+                description: "Complete mandi experience with spiced rice, tender meat, and traditional accompaniments",
+                image: "/chick-platter.png"
+            },
+            {
+                name: "Pidikozhi Platter",
+                description: "Special platter featuring our signature pidikozhi with aromatic rice and sides",
+                image: "/pidikozhi.png"
+            },
+            {
+                name: "Bread Platter",
+                description: "Assortment of fresh breads with dips, spreads, and accompaniments",
+                image: "/bread-platter.png"
             }
         ]
     },
@@ -537,7 +574,7 @@ function MenuSection() {
                             className: "mx-auto mb-4 h-px w-16 bg-accent"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/menu-section.tsx",
-                            lineNumber: 74,
+                            lineNumber: 84,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -545,7 +582,7 @@ function MenuSection() {
                             children: "Our Menu"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/menu-section.tsx",
-                            lineNumber: 75,
+                            lineNumber: 85,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -553,13 +590,13 @@ function MenuSection() {
                             children: "Explore our carefully crafted menu featuring authentic Malabar and Arabian delicacies"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/menu-section.tsx",
-                            lineNumber: 76,
+                            lineNumber: 86,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/menu-section.tsx",
-                    lineNumber: 68,
+                    lineNumber: 78,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -589,16 +626,16 @@ function MenuSection() {
                                         children: category.category
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/menu-section.tsx",
-                                        lineNumber: 91,
+                                        lineNumber: 101,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/menu-section.tsx",
-                                    lineNumber: 90,
+                                    lineNumber: 100,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "space-y-6",
+                                    className: category.category === "Beverages" ? "grid grid-cols-2 gap-6" : "space-y-6",
                                     children: category.items.map((item, itemIndex)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$framer$2d$motion$40$12$2e$23$2e$26_$40$emo_3a096f0cab07ef7d5c9aa69280700989$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
                                             initial: {
                                                 opacity: 0,
@@ -616,70 +653,127 @@ function MenuSection() {
                                                 delay: categoryIndex * 0.1 + itemIndex * 0.05
                                             },
                                             className: "group",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "flex items-baseline justify-between gap-4",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                                            className: "font-serif text-lg font-medium text-primary group-hover:text-accent transition-colors",
-                                                            children: item.name
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "flex gap-4",
+                                                children: [
+                                                    "image" in item && item.image && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "flex-shrink-0",
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                            src: item.image,
+                                                            alt: item.name,
+                                                            className: "w-20 h-20 md:w-24 md:h-24 object-cover rounded-lg"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/menu-section.tsx",
-                                                            lineNumber: 104,
-                                                            columnNumber: 23
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "flex-1 border-b border-dotted border-border"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/menu-section.tsx",
-                                                            lineNumber: 107,
-                                                            columnNumber: 23
+                                                            lineNumber: 116,
+                                                            columnNumber: 27
                                                         }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/menu-section.tsx",
-                                                    lineNumber: 103,
-                                                    columnNumber: 21
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "mt-2 text-sm leading-relaxed text-foreground/70",
-                                                    children: item.description
-                                                }, void 0, false, {
-                                                    fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/menu-section.tsx",
-                                                    lineNumber: 109,
-                                                    columnNumber: 21
-                                                }, this)
-                                            ]
-                                        }, item.name, true, {
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/menu-section.tsx",
+                                                        lineNumber: 115,
+                                                        columnNumber: 25
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "flex-1 min-w-0",
+                                                        children: category.category === "Beverages" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                                                    className: "font-serif text-lg font-medium text-primary group-hover:text-accent transition-colors mb-2",
+                                                                    children: item.name
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/menu-section.tsx",
+                                                                    lineNumber: 126,
+                                                                    columnNumber: 29
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                    className: "text-sm leading-relaxed text-foreground/70",
+                                                                    children: item.description
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/menu-section.tsx",
+                                                                    lineNumber: 129,
+                                                                    columnNumber: 29
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/menu-section.tsx",
+                                                            lineNumber: 125,
+                                                            columnNumber: 27
+                                                        }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    className: "flex items-baseline justify-between gap-4",
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                                                            className: "font-serif text-lg font-medium text-primary group-hover:text-accent transition-colors",
+                                                                            children: item.name
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/menu-section.tsx",
+                                                                            lineNumber: 134,
+                                                                            columnNumber: 31
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                            className: "flex-1 border-b border-dotted border-border"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/menu-section.tsx",
+                                                                            lineNumber: 137,
+                                                                            columnNumber: 31
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/menu-section.tsx",
+                                                                    lineNumber: 133,
+                                                                    columnNumber: 29
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                    className: "mt-2 text-sm leading-relaxed text-foreground/70",
+                                                                    children: item.description
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/menu-section.tsx",
+                                                                    lineNumber: 139,
+                                                                    columnNumber: 29
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/menu-section.tsx",
+                                                        lineNumber: 123,
+                                                        columnNumber: 23
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/menu-section.tsx",
+                                                lineNumber: 113,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, item.name, false, {
                                             fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/menu-section.tsx",
-                                            lineNumber: 96,
+                                            lineNumber: 106,
                                             columnNumber: 19
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/menu-section.tsx",
-                                    lineNumber: 94,
+                                    lineNumber: 104,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, category.category, true, {
                             fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/menu-section.tsx",
-                            lineNumber: 83,
+                            lineNumber: 93,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/menu-section.tsx",
-                    lineNumber: 81,
+                    lineNumber: 91,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/menu-section.tsx",
-            lineNumber: 67,
+            lineNumber: 77,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/menu-section.tsx",
-        lineNumber: 66,
+        lineNumber: 76,
         columnNumber: 5
     }, this);
 }

@@ -9,7 +9,7 @@ export default function MenuPage() {
             <Navbar />
             <PageHero 
                 title="Our Menu" 
-                backgroundImage="/malabar-biryani-aromatic-premium-food-photography.jpg"
+                backgroundImage="/malabar biri.jpg"
                 subtitle="Explore our exquisite collection of authentic dishes"
             />
             <MenuSection />

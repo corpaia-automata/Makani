@@ -28,7 +28,7 @@ const menuCategories = [
         description: "Succulent chicken served over spiced rice with traditional mandi flavors",
         image: "/arabian-mandi-kabsa-rice-dish-premium.jpg",
       },
-      { name: "Mutton Mandi", description: "Tender mutton with fragrant long-grain rice and Arabian spices", image: "/gallery/mutton mandi.png" },
+      { name: "Mutton Mandi", description: "Tender mutton with fragrant long-grain rice and Arabian spices", image: "/gallery/mutton-mandi.png" },
     ],
   },
   {

@@ -353,9 +353,9 @@ function AboutSection() {
                         className: "relative h-[400px] overflow-hidden lg:h-[600px]",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$New__folder$2f$makani$2f$v0$2d$makkani$2d$restaurant$2d$website$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                src: "/luxury-restaurant-interior-warm-lighting-arabian-d.jpg",
+                                src: "/Gallery/makkanifront.png",
                                 alt: "Restaurant Interior",
-                                className: "h-full w-full object-cover"
+                                className: "h-full w-full rounded-xl object-cover"
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/components/about-section.tsx",
                                 lineNumber: 22,
@@ -741,7 +741,7 @@ const menuCategories = [
             {
                 name: "Mutton Mandi",
                 description: "Tender mutton with fragrant long-grain rice and Arabian spices",
-                image: "/gallery/mutton mandi.png"
+                image: "/gallery/mutton-mandi.png"
             }
         ]
     },
