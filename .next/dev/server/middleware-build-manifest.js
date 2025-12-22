@@ -3,22 +3,9 @@ globalThis.__BUILD_MANIFEST = {
     "/_app": []
   },
   "devFiles": [],
-  "polyfillFiles": [
-    "static/chunks/f8f45_next_dist_build_polyfills_polyfill-nomodule.js"
-  ],
+  "polyfillFiles": [],
   "lowPriorityFiles": [],
-  "rootMainFiles": [
-    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_e37d70f3._.js",
-    "static/chunks/f8f45_next_dist_compiled_react-dom_3738a813._.js",
-    "static/chunks/f8f45_next_dist_compiled_react-server-dom-turbopack_834ce473._.js",
-    "static/chunks/f8f45_next_dist_compiled_next-devtools_index_2d9e021d.js",
-    "static/chunks/f8f45_next_dist_compiled_7a48890f._.js",
-    "static/chunks/f8f45_next_dist_client_ad3a54ec._.js",
-    "static/chunks/f8f45_next_dist_42326556._.js",
-    "static/chunks/ae16f_@swc_helpers_cjs_48843a1d._.js",
-    "static/chunks/Desktop_New folder_makani_v0-makkani-restaurant-website_a0ff3932._.js",
-    "static/chunks/turbopack-Desktop_New folder_makani_v0-makkani-restaurant-website_f1813d49._.js"
-  ]
+  "rootMainFiles": []
 };
 globalThis.__BUILD_MANIFEST.lowPriorityFiles = [
 "/static/" + process.env.__NEXT_BUILD_ID + "/_buildManifest.js",

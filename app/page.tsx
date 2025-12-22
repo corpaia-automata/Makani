@@ -26,7 +26,6 @@ export default function Home() {
       <div id="gallery">
         <Gallery />
       </div>
-      <ExperienceStrip />
       <Testimonials />
       <div id="contact">
         <ContactSection />

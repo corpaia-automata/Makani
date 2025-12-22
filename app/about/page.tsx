@@ -17,7 +17,6 @@ export default function AboutPage() {
       />
       <div className="space-y-10">
         <AboutStory />
-        <ExperienceStrip />
         <SignatureCuisines />
         <ContactSection />
       </div>
