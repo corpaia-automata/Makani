@@ -91,7 +91,7 @@ export default function Footer() {
                 <p className="text-sm leading-relaxed text-primary-foreground/80">
                   Makkani Restaurant,<br />
                   Athani, Nedumbassery,<br />
-                  Kochi
+                  Kerala 683585
                 </p>
               </div>
             </div>
@@ -128,7 +128,15 @@ export default function Footer() {
                     href="tel:+917510015001"
                     className="text-sm text-primary-foreground/80 hover:text-accent transition-colors block"
                   >
-                    +91 75100 15001
+                    +91 75 8006 7006
+
+                  </a>
+                  <a
+                    href="tel:+917510015001"
+                    className="text-sm text-primary-foreground/80 hover:text-accent transition-colors block"
+                  >
+                    +91 75 8001 8006
+
                   </a>
                 </div>
               </div>

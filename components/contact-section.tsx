@@ -1,14 +1,37 @@
 "use client"
 
-import { motion } from "framer-motion"
-import { useInView } from "framer-motion"
+import { motion, useInView } from "framer-motion"
 import { useRef, useState } from "react"
-import { Phone, MapPin, Clock } from "lucide-react"
+import { Phone, MapPin } from "lucide-react"
 import { Button } from "@/components/ui/button"
+
+const branches = [
+  {
+    name: "Kozhikode",
+    address: `Near Shanthi Hospital,
+Mukkam Road, Omassery,
+Kozhikode – 673572, Kerala`,
+    phones: ["+917510015001", "+919846445784"],
+    map: "https://maps.google.com?q=Omassery,Kozhikode&output=embed",
+    directions: "https://maps.google.com?q=Omassery,Kozhikode",
+  },
+  {
+    name: "Kochi",
+    address: `Makkani Restaurant,
+Athani, Nedumbassery,
+Kerala – 683585`,
+    phones: ["+917580067006", "+917580018006"],
+    map: "https://maps.google.com?q=Nedumbassery,Kochi&output=embed",
+    directions: "https://maps.google.com?q=Nedumbassery,Kochi",
+  },
+]
 
 export default function ContactSection() {
   const ref = useRef(null)
-  const isInView = useInView(ref, { once: true, margin: "-100px" })
+  const isInView = useInView(ref, { once: true })
+
+  const [activeBranch, setActiveBranch] = useState(branches[0])
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -16,138 +39,186 @@ export default function ContactSection() {
     message: "",
   })
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    // Handle form submission here
-    console.log("Form submitted:", formData)
-    // You can add your form submission logic here
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value })
   }
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    })
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault()
+    console.log(formData)
   }
 
   return (
-    <section id="contact" ref={ref} className="py-24 px-4 md:py-32 lg:py-40">
+    <section ref={ref} className="py-24 px-4 md:py-32">
       <div className="mx-auto max-w-7xl">
+
+        {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
-          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+          animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
           className="mb-16 text-center"
         >
-          <div className="mx-auto mb-4 h-px w-16 bg-accent" />
-          <h2 className="font-serif text-4xl font-medium text-primary md:text-5xl lg:text-6xl">Visit Us</h2>
-          <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-foreground/70">
-            We look forward to serving you happiness
-          </p>
+          <h2 className="font-serif text-4xl md:text-5xl text-primary">
+            Get In Touch
+          </h2>
         </motion.div>
 
-        <div className="grid gap-12 lg:grid-cols-2">
-          {/* Map */}
+        <div className="grid gap-16 lg:grid-cols-2 items-center">
+
+          {/* LEFT SIDE – Restaurant Message */}
           <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -30 }}
+            initial={{ opacity: 0, x: -40 }}
+            animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8 }}
-            className="h-[400px] overflow-hidden bg-secondary lg:h-[500px] rounded-lg"
           >
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3912.5!2d75.9!3d11.25!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTHCsDE1JzAwLjAiTiA3NcKwNTQnMDAuMCJF!5e0!3m2!1sen!2sin!4v1234567890"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Makkani Restaurant Location"
-            />
+            <h3 className="font-serif text-5xl leading-tight text-primary mb-6">
+              Let's Create Something
+              <span className="text-accent block">
+                Delicious Together
+              </span>
+            </h3>
+
+            <p className="text-lg text-muted-foreground leading-relaxed max-w-lg">
+              Whether you're planning a special celebration, a family gathering,
+              or simply craving authentic flavors, our team is here to make
+              your experience unforgettable.
+            </p>
           </motion.div>
 
-          {/* Contact Form */}
+
+          {/* RIGHT SIDE – Contact Form */}
           <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 30 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
+            initial={{ opacity: 0, x: 40 }}
+            animate={isInView ? { opacity: 1, x: 0 } : {}}
+            transition={{ duration: 0.8 }}
             className="bg-card border border-border rounded-lg p-8"
           >
-            <h3 className="font-serif text-2xl font-medium text-primary mb-6">Send us a message</h3>
+            <h3 className="font-serif text-2xl font-medium text-primary mb-6">
+              Send us a message
+            </h3>
+
             <form onSubmit={handleSubmit} className="space-y-6">
-              <div>
-                <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
-                  Name
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  required
-                  className="w-full px-4 py-2 border border-border rounded-md bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
-                  placeholder="Your name"
-                />
-              </div>
 
-              <div>
-                <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
-                  Email
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  required
-                  className="w-full px-4 py-2 border border-border rounded-md bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
-                  placeholder="your.email@example.com"
-                />
-              </div>
+              <input
+                type="text"
+                name="name"
+                placeholder="Your name"
+                value={formData.name}
+                onChange={handleChange}
+                required
+                className="w-full px-4 py-3 border rounded-md bg-background"
+              />
 
-              <div>
-                <label htmlFor="phone" className="block text-sm font-medium text-foreground mb-2">
-                  Phone
-                </label>
-                <input
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  value={formData.phone}
-                  onChange={handleChange}
-                  required
-                  className="w-full px-4 py-2 border border-border rounded-md bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
-                  placeholder="+91 12345 67890"
-                />
-              </div>
+              <input
+                type="email"
+                name="email"
+                placeholder="Email address"
+                value={formData.email}
+                onChange={handleChange}
+                required
+                className="w-full px-4 py-3 border rounded-md bg-background"
+              />
 
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
-                  Message
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  required
-                  rows={5}
-                  className="w-full px-4 py-2 border border-border rounded-md bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent resize-none"
-                  placeholder="Your message..."
-                />
-              </div>
+              <input
+                type="tel"
+                name="phone"
+                placeholder="Phone number"
+                value={formData.phone}
+                onChange={handleChange}
+                required
+                className="w-full px-4 py-3 border rounded-md bg-background"
+              />
+
+              <textarea
+                name="message"
+                rows={5}
+                placeholder="Your message"
+                value={formData.message}
+                onChange={handleChange}
+                required
+                className="w-full px-4 py-3 border rounded-md bg-background resize-none"
+              />
 
               <Button
                 type="submit"
-                className="w-full bg-accent text-primary hover:bg-accent/90 font-medium py-6 text-base"
+                className="w-full bg-accent text-primary hover:bg-accent/90 py-6"
               >
                 Send Message
               </Button>
+
             </form>
           </motion.div>
+
         </div>
+      <div className="space-y-5 mt-10">
+
+
+        {/* Branch Cards */}
+          <div className="text-center mb-10 space-y-5">
+            <h2 className="font-serif text-4xl md:text-5xl text-primary">
+              Our Locations
+            </h2>
+            <p className="text-muted-foreground mt-3">
+              Visit us at any of our branches for an unforgettable dining experience
+            </p>
+          </div>
+        <div className="grid md:grid-cols-2 gap-8 mt-10">
+          {/* Heading */}
+
+          {branches.map((branch) => (
+            
+            <div
+            key={branch.name}
+            className={`border rounded-xl p-6 cursor-pointer transition hover:shadow-md ${
+              activeBranch.name === branch.name
+              ? "border-accent"
+              : ""
+            }`}
+            onClick={() => setActiveBranch(branch)}
+            >
+
+              <div className="flex items-center gap-3 mb-3">
+                <MapPin className="text-accent" size={18} />
+                <h4 className="font-serif text-xl">
+                  {branch.name}
+                </h4>
+              </div>
+
+              <p className="text-muted-foreground whitespace-pre-line mb-4">
+                {branch.address}
+              </p>
+
+              <div className="space-y-1 mb-4">
+
+                {branch.phones.map((phone) => (
+                  <a
+                  key={phone}
+                  href={`tel:${phone}`}
+                  className="flex items-center gap-2 text-sm hover:text-accent"
+                  >
+                    <Phone size={14} />
+                    {phone}
+                  </a>
+                ))}
+
+              </div>
+
+              <a
+                href={branch.directions}
+                target="_blank"
+                className="text-accent text-sm font-medium"
+              >
+                Get Directions →
+              </a>
+
+            </div>
+
+))}
+
+        </div>
+
+</div>
       </div>
     </section>
   )
