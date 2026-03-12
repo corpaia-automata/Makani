@@ -1,3 +1,0 @@
-module.exports=[81809,a=>{a.n(a.i(6789))},38630,a=>{a.n(a.i(67736))},78059,a=>{a.n(a.i(98307))},61236,a=>{a.n(a.i(36468))},41261,a=>{a.n(a.i(34409))},34409,(a,b,c)=>{"use strict";Object.defineProperty(c,"__esModule",{value:!0}),Object.defineProperty(c,"default",{enumerable:!0,get:function(){return f}});let d=a.r(69952),e=a.r(68022);function f(){return(0,d.jsx)(e.HTTPAccessErrorFallback,{status:401,message:"You're not authorized to access this page."})}("function"==typeof c.default||"object"==typeof c.default&&null!==c.default)&&void 0===c.default.__esModule&&(Object.defineProperty(c.default,"__esModule",{value:!0}),Object.assign(c.default,c),b.exports=c.default)}];
-
-//# sourceMappingURL=Desktop_New%20folder_makani_v0-makkani-restaurant-website_d25ce345._.js.map

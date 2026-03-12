@@ -1,3 +1,0 @@
-module.exports=[79647,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(161);a.n(d("[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/node_modules/.pnpm/next@16.0.10_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},17916,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(161);a.n(d("[project]/Desktop/New folder/makani/v0-makkani-restaurant-website/node_modules/.pnpm/next@16.0.10_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/next/dist/client/components/builtin/global-error.js"))},6789,a=>{"use strict";a.i(79647);var b=a.i(17916);a.n(b)}];
-
-//# sourceMappingURL=f8f45_next_dist_client_components_builtin_global-error_e1f67a17.js.map
