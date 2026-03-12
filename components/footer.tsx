@@ -91,11 +91,7 @@ export default function Footer() {
                 <p className="text-sm leading-relaxed text-primary-foreground/80">
                   Makkani Restaurant,<br />
                   Athani, Nedumbassery,<br />
-<<<<<<< HEAD
                   Kerala 683585
-=======
-                  Kochi
->>>>>>> de169b7748898f2eef6bda0568f90ffe0a71fe96
                 </p>
               </div>
             </div>
